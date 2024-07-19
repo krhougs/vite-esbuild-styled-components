@@ -1,0 +1,35 @@
+{
+  "name": "vite-esbuild-styled-components",
+  "version": "1.0.1",
+  "description": "esbuild styled-components plugin to replace styled-components/macro",
+  "main": "index.js",
+  "author": "Alexander Kuznetsov <alexkuz@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "tree-sitter": "^0.21.1",
+    "tree-sitter-typescript": "^0.21.2"
+  },
+  "devDependencies": {
+    "babel-test": "0.2.4",
+    "jest": "27.5.1",
+    "jest-file-snapshot": "0.5.0"
+  },
+  "files": [
+    "vite"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krhougs/vite-esbuild-styled-components.git"
+  },
+  "keywords": [
+    "esbuild",
+    "remix",
+    "styled-components"
+  ]
+}
