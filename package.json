@@ -1,9 +1,9 @@
 {
   "name": "vite-esbuild-styled-components",
-  "version": "1.0.1",
-  "description": "esbuild styled-components plugin to replace styled-components/macro",
+  "version": "1.0.2",
+  "description": "esbuild styled-components plugin with vite support. (forked from https://github.com/lukalabs/lukalabs-npm)",
   "main": "index.js",
-  "author": "Alexander Kuznetsov <alexkuz@gmail.com>",
+  "author": "Jiacheng ZHANG <_@xn--6g8h.st>",
   "license": "MIT",
   "dependencies": {
     "tree-sitter": "^0.21.1",
@@ -31,5 +31,9 @@
     "esbuild",
     "remix",
     "styled-components"
-  ]
+  ],
+  "exports": {
+    ".": "./src/index.js",
+    "./vite": "./src/vite.js"
+  }
 }
